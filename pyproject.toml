@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "genderly-pochecker"
+version = "0.1.0"
+description = ""
+authors = ["pajowu <git@ca.pajowu.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.6,<3.11"
+requests = "^2.27.1"
+polib = "^1.1.1"
+click = "^8.1.2"
+tqdm = "^4.64.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
